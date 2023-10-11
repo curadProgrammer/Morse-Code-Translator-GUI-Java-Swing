@@ -174,7 +174,7 @@ public class MorseCodeController {
             data[i] = (byte) (Math.sin(angle) * 127.0);
         }
 
-        // write the audio dat in the data line to be played
+        // write the audio data in the data line to be played
         line.write(data, 0, data.length);
     }
 }
